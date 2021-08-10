@@ -1,0 +1,90 @@
+body{
+    background-size: cover;
+}
+
+#heading{
+    width: 100%;
+    padding: 6px;
+    font-size: 25px;
+    color: aliceblue;
+    margin: 0px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    cursor: no-drop;
+}
+#heading:hover{
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 6s;
+}
+#note:hover{
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 6s;
+}
+#note{
+    color: darkred;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+@keyframes example{
+    from{
+        font-family: 'STIX Two Text', serif;
+        box-shadow: 5px 5px 10px rgb(255, 218, 53);
+        margin: 0px;
+        font-size: 13px;
+        width: 100%;
+    }
+    to{
+        font-family: 'Palette Mosaic', cursive;
+        box-shadow: 7px 7px 13px rgb(24, 228, 255);
+        margin: 10px;
+        font-size: 26px;
+    }
+}
+
+.play_button{
+    cursor:wait;
+    font-size: 125px;
+    font-weight: 900;
+    font-family: 'STIX Two Text', cursive;
+    box-shadow: 7px 7px 13px rgb(66, 24, 255);
+    border: 5px 5px dotted rgb(24, 247, 255);
+}
+.div_speed{
+    float: left;
+}
+.div_speed_img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 14px;
+    cursor: none;
+}
+#speed{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    font-weight: bold;
+    cursor: not-allowed;
+    
+}
+.div_volume{
+    float: right;
+}
+.div_volume_img{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 14px;
+    cursor: none;
+}
+#volume{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    font-weight: bold;
+    cursor: not-allowed;
+}
